@@ -26,6 +26,22 @@ export const Container = styled.div`
         background: ${darken(0.06, '#7159c1')};
       }
     }
+
+    .shopping-button {
+      background: #00cc00;
+      color: #fff;
+      border: 0;
+      border-radius: 4px;
+      padding: 12px 20px;
+      text-decoration: none;
+      font-weight: bold;
+      text-transform: uppercase;
+      transition: background 0.2s;
+
+      &:hover {
+        background: ${darken(0.06, '#00cc00')};
+      }
+    }
   }
 `;
 
